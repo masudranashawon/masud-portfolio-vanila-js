@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://unpkg.com/typewriter-effect@latest/dist/core.js"
+      defer
+    ></script>
+    <script src="./js/TagCloud.min.js" defer></script>
+    <script src="./js/app.js" defer></script>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+    <title>Masud Rana Shawon - Developer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar down">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="images/logo.png" alt="Masud logo"
+          /></a>
+        </div>
+        <ul class="links">
+          <li class="link-item"><a class="link" href="#home">Home</a></li>
+          <li class="link-item">
+            <a class="link a-link" href="#about">About</a>
+          </li>
+          <li class="link-item">
+            <a class="link" href="#skills">Skills</a>
+          </li>
+          <li class="link-item">
+            <a class="link" href="#projects">Projects</a>
+          </li>
+          <li class="link-item">
+            <a class="link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <div class="hero container" id="home">
+        <div class="hero-left left">
+          <p class="hello">Hello there, my name is</p>
+          <h1 class="main-headline">
+            <span class="full-name"></span> <br />
+            <span id="app"></span>
+          </h1>
+          <p>
+            I'm a full-stack web developer specializing in developing
+            exceptional and unique websites. Currently, I'm focused on building
+            accessible, human-centered interactive web apps.
+          </p>
+          <a href="#about" class="abt-link">
+            <button class="cta">
+              <span>Learn more</span>
+              <svg viewBox="0 0 13 10" height="10px" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </a>
+        </div>
+        <div class="hero-right right">
+          <img
+            src="images/hero.png"
+            alt="Illustration of a developer, working on his laptop"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About -->
+      <section id="about" class="section">
+        <h2 class="section-title down">About me</h2>
+        <div class="about container">
+          <div class="about-left left">
+            <img
+              src="images/about.png"
+              alt="Illustration of a developer, working on his desktop"
+            />
+          </div>
+          <div class="about-right right">
+            <p>
+              My name is Masud Rana Shawon and I’m a web developer. My expertise
+              lays in website design and development, the world wide web,
+              interactive experiences, and applications. It’s my passion for
+              making people’s lives better that drives me to excel at my
+              profession.
+              <br />
+              <br />
+              What I love about being a web developer is that every day there is
+              a new problem to solve. I don’t think there will ever be an end to
+              solving problems associated with breaking websites or integrating
+              new features into existing ones; well short of our own evolution
+              from species of human to aliens if the transcendance hypothesis
+              came true!
+            </p>
+            <a
+              href="https://drive.google.com/file/d/17_dRoIcLRcY8SKyEWYmbYkX595rVDFpo/view"
+              target="_blank"
+            >
+              <button class="cta">
+                <span>Download resume</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2 class="section-title down">My skills</h2>
+        <div class="content right"></div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2 class="section-title down">Projects</h2>
+        <div class="projects container down"></div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2 class="section-title down">Contact</h2>
+        <div class="contact container">
+          <div class="contact-left left">
+            <div class="input-group">
+              <label class="label" for="first-name">First name</label>
+              <input
+                class="input"
+                type="text"
+                id="first-name"
+                placeholder="John"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="last-name">Last name</label>
+              <input
+                class="input"
+                type="text"
+                id="last-name"
+                placeholder="Doe"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="email">Email address</label>
+              <input
+                id="email"
+                class="input"
+                type="email"
+                placeholder="abcd@example.com"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label class="label" for="message">Message</label>
+              <textarea
+                id="message"
+                cols="30"
+                rows="5"
+                class="text-area"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+            <a href="./index.html">
+              <button class="cta">
+                <span>Submit</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+            </a>
+          </div>
+          <div class="contact-right right">
+            <img
+              src="images/contact.png"
+              alt="Illustration of a developer, doing some codes"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="down">
+      <p>
+        Designed & Built by
+        <a href="https://facebook.com/masudranashawon786" target="_blank"
+          >Masud Rana Shawon</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
