@@ -48,6 +48,15 @@ const projects = [
     liveLink: "https://virus-guard.netlify.app",
     githubLink: "https://github.com/masudranashawon/virus-guard",
   },
+  {
+    title: "Todo App - An Task management application",
+    description:
+      "This is a todo application built with React.js and backend API server written in Node.js. It's a simple, intuitive, and elegant UI for managing your todo list. It comes with a number of great features such as creating, updating or deleting tasks from the list.",
+    image: "./images/react-todo-app.png",
+    tools: "html, css, tailwind, react",
+    liveLink: "https://masud-todo-app.netlify.app/",
+    githubLink: "https://github.com/masudranashawon/todo-app",
+  },
 ];
 
 // Application architechture

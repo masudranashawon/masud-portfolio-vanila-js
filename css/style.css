@@ -4,12 +4,6 @@
   --color-black: rgb(17, 24, 39);
   --color-white: rgb(209, 213, 219);
 }
-/* :root {
-  --color-primary: rgb(52, 152, 219);
-  --color-secondary: rgb(26, 115, 188);
-  --color-white: rgb(17, 24, 39);
-  --color-black: #ffffff;
-} */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -115,7 +109,6 @@ body {
   width: 100%;
   height: 10rem;
   padding: 0 10vw;
-  /* animation: revealDown 1.5s 1; */
 }
 
 .sticky .navbar {
@@ -269,7 +262,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 2rem;
-  /* animation: revealLeft 1.5s 1; */
 }
 
 .hello {
@@ -292,7 +284,6 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  /* animation: revealRight 1.5s 1; */
 }
 
 .hero-right img {
