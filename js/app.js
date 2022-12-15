@@ -53,9 +53,27 @@ const projects = [
     description:
       "This is a todo application built with React.js and backend API server written in Node.js. It's a simple, intuitive, and elegant UI for managing your todo list. It comes with a number of great features such as creating, updating or deleting tasks from the list.",
     image: "./images/react-todo-app.png",
-    tools: "html, css, tailwind, react",
+    tools: "jsx, css, tailwind, react",
     liveLink: "https://masud-todo-app.netlify.app/",
     githubLink: "https://github.com/masudranashawon/todo-app",
+  },
+  {
+    title: "Immemorial - An showcase website of 1990s memories",
+    description:
+      "Explore the lost treasures and shining stars of the 1990s! Find your favorite cartoons, TV shows, music albums, & more with easy filtering functionality. With Immemorial, stay up-to-date with all your 90s favorites while turning back time.",
+    image: "./images/immemorial.png",
+    tools: "jsx, css, react, react",
+    liveLink: "https://immemorial-90s.netlify.app/",
+    githubLink: "https://github.com/masudranashawon/immemorial",
+  },
+  {
+    title: "Armour - An military machineries showcase website",
+    description:
+      "About Explore the military machineries and real superhero army ! Military equipment means weapons, arms, military supplies, and equipment that readily may be used for military purposes, including, but not limited to, radar systems or military-grade transport vehicles.",
+    image: "./images/armour.png",
+    tools: "jsx, css, react, gsap",
+    liveLink: "https://armour-machinery.netlify.app/",
+    githubLink: "https://github.com/masudranashawon/armour",
   },
 ];
 
